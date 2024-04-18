@@ -1,0 +1,4 @@
+- View, Text.
+- ScrollView.
+- StyleSheet.
+- Flatlist.
