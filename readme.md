@@ -10,6 +10,7 @@
 - Platform
 - StatusBar
 - SafeAreaView
+- Flex
 
 const onBtnTap = () => {
 
@@ -22,3 +23,6 @@ https://stackoverflow.com/a/77764225
 npm install expo@latest
 npm install expo@49
 npx expo install --fix (Want to upgrade installed dependencies to match the installed expo version?)
+
+
+https://www.youtube.com/watch?v=mJ3bGvy0WAY

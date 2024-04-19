@@ -52,8 +52,27 @@ const ReactBasics = () => {
                 color='green'
                 onPress={() => Alert.prompt("Title", "Messages", text => { })}
             /> */}
-            <View style={{backgroundColor: "green", width: '100%', height: landscape === 'landscape' ? '100%' : '30%'}}>
+            {/* <View style={{backgroundColor: "green", width: '100%', height: landscape === 'landscape' ? '100%' : '30%'}}>
                 <Text>Box is here</Text>
+            </View> */}
+            <View style={{
+                backgroundColor: 'white',
+                flex: 1,
+                flexDirection: 'row',
+                justifyContent: 'center', // main axis
+                alignItems: 'center', // secondary axis, within each line
+                // flexWrap: 'wrap',
+                alignContent: 'center' // only works with wrapping
+            }}>
+                {/* <View style={{backgroundColor: 'tomato', flex: 0.5}}/>
+                <View style={{backgroundColor: 'green', flex: 0.5}}/>
+                <View style={{backgroundColor: 'yellow', flex: 2}}/> */}
+                {/* <View style={{backgroundColor: 'dodgerblue', width: 100, height: 100, alignSelf: 'flex-start'}}/> */}
+                <View style={{backgroundColor: 'dodgerblue', width: 400, height: 100, flexShrink: 1}}/>
+                <View style={{backgroundColor: 'gold', width: 100, height: 100, top: 20, position: 'absolute'}}/> 
+                <View style={{backgroundColor: 'tomato', width: 100, height: 100, bottom: 20}}/>
+                <View style={{backgroundColor: 'grey', width: 100, height: 100}}/>
+                {/* <View style={{backgroundColor: 'greenyellow', width: 100, height: 100}}/> */}
             </View>
         </SafeAreaView>
     )

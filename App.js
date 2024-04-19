@@ -9,12 +9,18 @@ import MenuView from './components/MenuView'
 import MenuWithSectionsView from './components/MenuWithSectionsView';
 import FeedbackView from './components/FeedbackView';
 import ReactBasics from './components/ReactBasics';
+import ReactBasicsExercise from './components/ReactBasicsExercise';
+import { NetNinjasLearning } from './components/NetNinjasLearning';
+import NetNinjasTodo from './components/NetNinjasTodoApp';
 
 export default function App() {
   return (
     <>
       <View style={styles.container2}>
-        <ReactBasics />
+        <NetNinjasTodo />
+        {/* <NetNinjasLearning /> */}
+        {/* <ReactBasicsExercise /> */}
+        {/* <ReactBasics /> */}
         {/* <LittleLemonHeader /> */}
         {/* <MenuView /> */}
         {/* <MenuWithSectionsView /> */}
