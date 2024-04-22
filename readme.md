@@ -11,6 +11,19 @@
 - StatusBar
 - SafeAreaView
 - Flex
+- Pressable, useColorScheme, useWindowDimensions
+- Multiple style properties (style={[styles.container, {backgroundColor: 'white'}]})
+- Conditional elements ({showDetails && <Text>Details</Text>})
+- React Navigation (https://reactnavigation.org/docs/getting-started)
+npm install @react-navigation/native
+npm install @react-navigation/native-stack
+npx expo install react-native-screens react-native-safe-area-context
+
+npm install @react-navigation/bottom-tabs (Tab nav)
+
+https://reactnavigation.org/docs/drawer-navigator#installation
+npm install @react-navigation/drawer
+npx expo install react-native-gesture-handler react-native-reanimated
 
 const onBtnTap = () => {
 
